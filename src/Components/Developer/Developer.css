@@ -1,0 +1,57 @@
+.developer{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    gap:35px;
+}
+
+.developer img{
+    margin-top:150px;
+}
+
+.developer h1{
+    text-align: center;
+    width:70%;
+    font-size:65px;
+    font-weight:600;
+}
+
+.developer h1 span{
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.developer p{
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.dev-action{
+    display:flex;
+    align-items: center;
+    gap:25px;
+    font-size:24px;
+    font-weight:500;
+    margin-bottom:50px;
+}
+.dev-connect{
+    padding:25px 45px;
+    border-radius: 50px;
+    background:linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    cursor:pointer;
+}
+
+.dev-resume{
+    padding:25px 75px;
+    border-radius: 50px;
+    border:2px solid #FFF;
+    cursor: pointer;
+}
+
+.dev-resume:hover{
+    border-color: #B415FF;
+}
